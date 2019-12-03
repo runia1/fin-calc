@@ -1,0 +1,17 @@
+{
+  "name": "fin-calc",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts",
+    "prettify": "prettier --write \"src/**/*.{ts,js,md,json}\"",
+    "lint": "eslint"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.7.2",
+    "prettier": "^1.19.1",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.2"
+  }
+}

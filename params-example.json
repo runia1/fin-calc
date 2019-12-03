@@ -1,0 +1,17 @@
+{
+  "homePurchasePrice": 345000,
+  "mortgageInterestRate": 0.0375,
+  "mortgageLength": 30, // length in years
+  "homeAppreciationRate": 0.0436,
+  "monthlyMortgage": 1960,
+
+  "inflationRate": 0.03,
+
+  "marketInvestmentReturnRate": 0.08, // this is an annual average
+
+  "currentMonthlyIncome": 5475, // this is your actual cash flow after taxes
+  "currentMonthlyExpenses": 1000, // these are monthly expenses you have which will likely grow with inflation. Ex: food, utilities, gas, etc,.
+  "raiseFrequency": 12, // get a raise every 12 months
+  "raiseRate": 0.03, // we'll assume your annual raises are keeping up with inflation
+  "personalTaxRate": 0.2
+}
